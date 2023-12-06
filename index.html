@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pattern3</title>
+    <style>
+        
+        .pattern{
+           height: 300px;
+           width: 350px;
+            background-color: rgb(246, 212, 212);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        .rect {
+            height: 60px;
+            width: 60px;
+            background-color: rgb(234, 33, 33);
+            rotate: 45deg;
+        }
+
+        .box {
+            display: flex;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, 0%);
+        }
+
+        .eye1 {
+            background-color: black;
+            width: 80px;
+            height: 80px;
+            rotate: 153deg;
+            border-radius: 0px 50%;
+            margin: 1px 35px;
+        }
+
+        .eye2 {
+            background-color: black;
+            width: 80px;
+            height: 80px;
+            rotate: 294deg;
+            border-radius: 0px 50%;
+            margin: 1px 35px;
+        }
+
+        .rect2 {
+            background-color: rgb(236, 47, 47);
+            height: 80px;
+            width: 80px;
+            border-radius: 0px 0px 50% 50%;
+        }
+
+        .arc1 {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-color: yellow;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .arc2 {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: red;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="pattern">
+        <center>
+            <br><br>
+        <div class="rect"></div>
+        <div class="box">
+            <div class="eye1">
+                <div class="arc1">
+                    <div class="arc2"></div>
+                </div>
+            </div>
+            <div class="eye2">
+                <div class="arc1">
+                    <div class="arc2"></div>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br><br><br>
+        <div class="rect2"></div>
+        </center>
+        </div>
+</body>
+
+</html>
